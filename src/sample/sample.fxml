@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ChoiceBox id="ChoiceBox" fx:id="ChoiceBox" layoutX="350.0" layoutY="76.0" onDragDetected="#handleChoiceBoxOnDragDetected" prefWidth="150.0" />
+      <TextArea id="consoleTextArea" fx:id="consoleTextArea" editable="false" layoutX="21.0" layoutY="177.0" prefHeight="200.0" prefWidth="555.0" />
+      <Button id="ButtonRefresh" fx:id="ButtonRefresh" layoutX="516.0" layoutY="76.0" mnemonicParsing="false" onAction="#handleButtonRefreshOnAction" prefHeight="26.0" prefWidth="60.0" text="Refresh" />
+      <Button id="connectButton" fx:id="connectButton" layoutX="516.0" layoutY="128.0" mnemonicParsing="false" onAction="#handleConnectButtonOnAction" text="Connect" />
+      <TextField id="FrequencyField" fx:id="FrequencyField" layoutX="351.0" layoutY="128.0" />
+      <Label layoutX="350.0" layoutY="110.0" text="Transmission frequency [ms]" />
+      <Label layoutX="350.0" layoutY="58.0" text="Server address" />
+      <Button id="stopButton" fx:id="stopButton" layoutX="21.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleStopButtonOnAction" prefHeight="26.0" prefWidth="45.0" text="Stop" />
+      <Label layoutX="24.0" layoutY="80.0" text="Active connection:" />
+      <Label id="connectionLabel" fx:id="connectionLabel" layoutX="24.0" layoutY="101.0" text="NoConnection" />
+      <Label id="frequencyLabel" fx:id="frequencyLabel" layoutX="351.0" layoutY="154.0" textFill="#aa0505" />
+   </children>
+</AnchorPane>
