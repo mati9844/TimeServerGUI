@@ -26,6 +26,6 @@ Development environment: IntelliJ IDEA 2018.3.6 (Community Edition)<br />
 <b>Note:</b><br />
 run a server using console before starting the first client:<br />
 <i>javac TimeServer.java</i><br />
-<i>java Time Server</i><br />
+<i>java TimeServer</i><br />
 
 ![Alt text](img.gif?raw=true "Title")<br />
