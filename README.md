@@ -30,9 +30,9 @@ run a server using console before starting the first client:<br />
 
 ![Alt text](img.gif?raw=true "Title")<br />
 
-Useful links:
-https://stackoverflow.com/questions/50603906/logger-output-to-textarea-in-javafx
-https://www.baeldung.com/java-broadcast-multicast
-https://michieldemey.be/blog/network-discovery-using-udp-broadcast/
-https://docs.oracle.com/javase/tutorial/networking/nifs/listing.html
-https://docs.oracle.com/javase/tutorial/networking/nifs/parameters.html
+Useful links:<br />
+https://stackoverflow.com/questions/50603906/logger-output-to-textarea-in-javafx<br />
+https://www.baeldung.com/java-broadcast-multicast<br />
+https://michieldemey.be/blog/network-discovery-using-udp-broadcast/<br />
+https://docs.oracle.com/javase/tutorial/networking/nifs/listing.html<br />
+https://docs.oracle.com/javase/tutorial/networking/nifs/parameters.html<br />
