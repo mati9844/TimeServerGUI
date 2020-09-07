@@ -23,5 +23,9 @@ class TCPListenerThread - waiting for the client<br />
 Language: Java<br />
 Development environment: IntelliJ IDEA 2018.3.6 (Community Edition)<br />
 
+<b>Note:</b><br />
+run a server using console before starting the first client:<br />
+<i>javac TimeServer.java</i><br />
+<i>java Time Server</i><br />
 
-![Alt text](img.gif?raw=true "Title")
+![Alt text](img.gif?raw=true "Title")<br />
